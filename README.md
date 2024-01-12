@@ -37,7 +37,7 @@
 - [📝 License](#license)
 
 <!-- INTRO -->
-# 📖 Recipe App <a name="about-project"></a>
+# 📖 RealTime Search <a name="about-project"></a>
 
 > RealTime Search, is an app that allows users search articles, and then to have analytics that display what users were searching for. Users are tracked via IP.
 
