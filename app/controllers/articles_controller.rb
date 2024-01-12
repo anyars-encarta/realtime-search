@@ -16,6 +16,6 @@ class ArticlesController < ApplicationController
   private
 
   def record_search_query(query)
-    SearchQuery.create(query: query, ip_address: request.remote_ip) if query.length >= 3
+    SearchQuery.create(query:, ip_address: request.remote_ip) if query.length >= 3
   end
 end
