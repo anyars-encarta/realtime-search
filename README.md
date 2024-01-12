@@ -4,7 +4,7 @@
 
  <!-- LOGO -->
 
-  <img src="./app/assets/images/budget.jpg" alt="logo" width="140"  height="auto" />
+  <img src="./app/assets/images/search.png" alt="logo" width="140"  height="auto" />
   <br/>
 
 <!-- MAIN HEADING -->
