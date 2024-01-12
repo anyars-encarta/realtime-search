@@ -4,13 +4,13 @@ document.addEventListener('DOMContentLoaded', function() {
   let timer;
 
   searchInput.addEventListener('input', function() {
-    clearTimeout(timer);
+    clearTimeout(timer); // reset timer if user begins typing
     timer = setTimeout(function() {
       const query = searchInput.value.trim();
       if (query.length >= 3) {
         searchForm.submit();
       }
-    }, 2000);
+    }, 2000); // submit form after 2000 milliseconds if user stops typing
   });
 
   searchForm.addEventListener('submit', function(event) {
