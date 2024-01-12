@@ -10,7 +10,7 @@ class ArticlesController < ApplicationController
 
   def search_results
     @articles = Article.search(params[:query])
-    # redirect_to search_results_path(query: params[:query])
+    record_search_query(params[:query])
   end
 
   private
