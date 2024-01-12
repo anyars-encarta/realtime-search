@@ -1,0 +1,18 @@
+<h1>Search Trends</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Search Item</th>
+      <th>Search Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @sorted_search_queries.each do |query, count| %>
+      <tr>
+        <td><%= query %></td>
+        <td><%= count %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

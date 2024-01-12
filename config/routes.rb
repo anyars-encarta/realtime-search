@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "articles#index"
   get '/search_results', to: 'articles#search_results', as: 'search_results'
-  
+  get '/search_trends', to: 'analytics#search_trends', as: 'search_trends'
+
   resources :articles
 end
