@@ -9,7 +9,7 @@
 
 <!-- MAIN HEADING -->
 
-  <h3><b>e-Budget</b></h3>
+  <h3><b>RealTime Search</b></h3>
 
 </div>
 
@@ -39,7 +39,7 @@
 <!-- INTRO -->
 # 📖 Recipe App <a name="about-project"></a>
 
-> e-Budget is a Rails mobile web application project about managing your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+> RealTime Search, is an app that allows users search articles, and then to have analytics that display what users were searching for. Users are tracked via IP.
 
 ## 🛠 Built With <a name="built-with"></a>
 1. Ruby
@@ -59,10 +59,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-> - List Categories of Expenditure.
-> - Add New Exoenditure Category
-> - List Exppenses on Categories
-> - Add New Expenses on Categories
+> - Record user input in realtime
+> - Ultimately display analytics & trends on what people are searching for the most
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,7 +68,7 @@
 
 LIVE DEMO
 
-> Watch [live](https://www.loom.com/share/c7a1e2a230da49d7bdf6af6a488893ac) demo of the app or visit the app [page](https://encarta-e-budget.onrender.com) to use the app.
+> Visit the app [page](https://encarta-e-budget.onrender.com) to use the app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,8 +79,8 @@ LIVE DEMO
 > To get a local copy of the project, use this link:
 > 
 ```sh
-cd Rails-Capstone-Budget
-https://github.com/anyars-encarta/Rails-Capstone-Budget.git
+cd realtime-search
+https://github.com/anyars-encarta/realtime-search.git
 ```
 
 <!-- SETUP -->
@@ -119,7 +117,7 @@ rspec
 ### Deployment
 
 You can deploy this project using:
->1.  GitHub Pages
+>1. GitHub Pages
 >2. Render
 >3. Any other hosting site
 
@@ -138,12 +136,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add Investment Categories**
-- [ ] **Add Expenses on Investments**
-- [ ] **Add Gift Categories**
-- [ ] **Add Expenses on Gifts**
-- [ ] **Add Donation categories**
-- [ ] **Add Expenses on Donations**
+- [ ] **Upload Articles**
+- [ ] **User Registration**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,7 +159,7 @@ Contributions, issues, and feature requests are welcome!
 <!-- ACKNOWLEDGEMENTS -->
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Special credit to [Gregoire Vella](https://www.behance.net/gregoirevella), the [author of the original design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=&) on [behance.net](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=&) used in this project and [microverseinc](https://github.com/microverseinc) for the design materials.
+> Special credit to [microverseinc](https://github.com/microverseinc) for the linters used in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,12 +173,8 @@ Contributions, issues, and feature requests are welcome!
 - **What new features should be expected in the next release of the project?**
 
   - We are currently working on adding: 
-    - **Add Investment Categories**
-    - **Add Expenses on Investments**
-    - **Add Gift Categories**
-    - **Add Expenses on Gifts**
-    - **Add Donation categories**
-    - **Add Expenses on Donations**
+    - **Upload Articles**
+    - **User Registration**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
