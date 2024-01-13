@@ -39,7 +39,7 @@
 <!-- INTRO -->
 # 📖 RealTime Search <a name="about-project"></a>
 
-> RealTime Search, is an app that allows users search for articles in realtime, and then to have analytics that display what users were searching for most. Users are tracked via IP.
+> RealTime Search, is an app that allows users search for articles in realtime, and then to have analytics that display what users were searching for most. Users are tracked via IP. An option was added to allow users create new Articles.
 
 ## 🛠 Built With <a name="built-with"></a>
 1. Ruby
@@ -59,8 +59,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-> - Record user input in realtime
-> - Ultimately display analytics & trends on what people are searching for the most
+> - Record user input in realtime with timer interval for typing delays.
+> - Ultimately display analytics & trends on what people are searching for the most.
+> - Create new Articles
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,7 +137,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Upload Articles**
+- [ ] **Articles Review**
 - [ ] **User Registration**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -173,7 +174,7 @@ Contributions, issues, and feature requests are welcome!
 - **What new features should be expected in the next release of the project?**
 
   - We are currently working on adding: 
-    - **Upload Articles**
+    - **Articles Review**
     - **User Registration**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
