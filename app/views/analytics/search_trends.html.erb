@@ -1,18 +1,20 @@
-<h1>Search Trends</h1>
+<div class="trends-section">
+  <h2>Search Trends</h2>
 
-<table>
-  <thead>
-    <tr>
-      <th>Search Item</th>
-      <th>Search Count</th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @sorted_search_queries.each do |query, count| %>
+  <table>
+    <thead>
       <tr>
-        <td><%= query %></td>
-        <td><%= count %></td>
+        <th>Search Item</th>
+        <th>Search Count</th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
+    <tbody>
+      <% @sorted_search_queries.each do |query, count| %>
+        <tr>
+          <td><%= query %></td>
+          <td><%= count %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

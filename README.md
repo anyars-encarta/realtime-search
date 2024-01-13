@@ -39,7 +39,7 @@
 <!-- INTRO -->
 # 📖 RealTime Search <a name="about-project"></a>
 
-> RealTime Search, is an app that allows users search articles, and then to have analytics that display what users were searching for. Users are tracked via IP.
+> RealTime Search, is an app that allows users search for articles in realtime, and then to have analytics that display what users were searching for most. Users are tracked via IP.
 
 ## 🛠 Built With <a name="built-with"></a>
 1. Ruby
