@@ -20,6 +20,18 @@ document.addEventListener('DOMContentLoaded', function() {
     openSearchResults();
   });
 
+  // Use pageshow event to reattach event listeners when the page is shown
+  window.addEventListener('pageshow', function(event) {
+    if (event.persisted) {
+      searchInput.value = '';
+      
+      searchInput.addEventListener('input', function() {
+        clearTimeout(timer);
+        timer = setTimeout(submitSearch, 2000);
+      });
+    }
+  });
+
   function openSearchResults() {
     const searchQuery = searchInput.value.trim();
     const searchResultsUrl = "/search_results?query=" + encodeURIComponent(searchQuery);

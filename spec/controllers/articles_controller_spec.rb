@@ -68,7 +68,7 @@ RSpec.describe ArticlesController, type: :controller do
 
       it 'redirects to the index page' do
         post :create, params: { article: attributes_for(:article) }
-        expect(response).to redirect_to(articles_path)
+        expect(response).to redirect_to(root_path)
       end
     end
 
