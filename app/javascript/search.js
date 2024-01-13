@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
     openSearchResults();
   });
 
-  // Use pageshow event to reattach event listeners when the page is shown
   window.addEventListener('pageshow', function(event) {
     if (event.persisted) {
       searchInput.value = '';
