@@ -9,6 +9,7 @@
             <%= link_to "Search Trends", search_trends_path, class: "s-btn" %>
         </div>
 
+        <%= link_to 'Create New Article', new_article_path %>
         <%= link_to "View Search Results", search_results_path(query: params[:query]), target: "_blank", id: "view-results-link", style: "display: none;" %>
     <% end %>
 </div>
