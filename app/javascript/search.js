@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (query.length >= 3) {
         searchForm.submit();
       }
-    }, 2000); // submit form after 2000 milliseconds if user stops typing
+    }, 2000); // submit form after 2000 milliseconds if user stops typing or has not clicked the search button
   });
 
   searchForm.addEventListener('submit', function(e) {
