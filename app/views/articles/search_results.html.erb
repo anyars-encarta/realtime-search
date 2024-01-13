@@ -1,0 +1,12 @@
+<div class="results-section">
+    <h2>Search Results</h2>
+
+    <% if @articles.present? %>
+        <% @articles.each do |article| %>
+        <h3><%= article.title %></h3>
+        <p><%= article.content %></p>
+        <% end %>
+    <% else %>
+      <p class="no-match">No matches found</p>
+    <% end %>
+</div>

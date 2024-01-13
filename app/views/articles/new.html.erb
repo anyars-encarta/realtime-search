@@ -1,0 +1,11 @@
+<div class="new-section">
+    <h2>New Article</h2>
+
+    <%= form_with(model: @article, url: articles_path, method: :post, id: "new-form") do |form| %>
+        <%= form.text_field :title, required: true, placeholder: "Article Title...", id: "text-input" %>
+
+        <%= form.text_area :content, rows: 10, required: true, placeholder: "Article Content...", id: "text-input" %>
+
+        <%= form.submit "Create Article", class: "n-btn" %>
+    <% end %>
+</div>

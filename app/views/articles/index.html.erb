@@ -1,0 +1,15 @@
+<div class="search-section">
+    <h1>Realtime Search</h1>
+
+    <%= form_with(url: search_results_path, method: :get, id: "search-form") do |form| %>
+        <%= form.text_field :query, placeholder: "Search articles...", id: "search-input" %>
+
+        <div class="search-buttons">
+            <%= form.submit "Search", onclick: "openSearchResults(event)", class: "s-btn" %>
+            <%= link_to "Search Trends", search_trends_path, class: "s-btn" %>
+        </div>
+
+        <%= link_to 'Create New Article', new_article_path %>
+        <%= link_to "View Search Results", search_results_path(query: params[:query]), target: "_blank", id: "view-results-link", style: "display: none;" %>
+    <% end %>
+</div>
