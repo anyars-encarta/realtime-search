@@ -1,45 +1,45 @@
 .new-section {
-    padding: 0 2%;
-  }
-  
-  .new-section h2 {
-    font-size: 350%;
-    color: #ffff;
-    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-    text-align: center;
-  }
+  padding: 0 2%;
+}
 
-  #new-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+.new-section h2 {
+  font-size: 350%;
+  color: #ffff;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  text-align: center;
+}
 
-  #text-input {
-    font-size: 150%;
-    border-radius: 20px;
-    padding: 1%;
-    margin-bottom: 10px;
-    width: 50%;
-    justify-self: center;
-    align-self: center;
-  }
+#new-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-  .n-btn {
-    text-decoration: none;
-    font-size: 150%;
-    padding: 1%;
-    border-radius: 50px;
-    text-align: center;
-    cursor: pointer;
-    color: black;
-    border: 1px solid black;
-    background-color: #29b406da;
-    width: 500px;
-  }
-  
-  .n-btn:hover {
-    background-color: aqua;
-    color: white;
-  }
+#text-input {
+  font-size: 150%;
+  border-radius: 20px;
+  padding: 1%;
+  margin-bottom: 10px;
+  width: 50%;
+  justify-self: center;
+  align-self: center;
+}
+
+.n-btn {
+  text-decoration: none;
+  font-size: 150%;
+  padding: 1%;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+  border: 1px solid black;
+  background-color: #29b406da;
+  width: 500px;
+}
+
+.n-btn:hover {
+  background-color: aqua;
+  color: white;
+}
