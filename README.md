@@ -69,7 +69,7 @@
 
 LIVE DEMO
 
-> Visit the app [page](encarta-realtime-search.onrender.com/) to use the app.
+> Visit the app [page](https://encarta-realtime-search.onrender.com) to use the app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
