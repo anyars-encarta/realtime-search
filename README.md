@@ -41,7 +41,7 @@
 
 > RealTime Search, is an app that allows users search for articles in realtime, and then to have analytics that display what users were searching for most. Users are tracked via IP. An option was added to allow users create new Articles.
 
-RealTime Search, is an app that allows users search for articles
+RealTime Search, is an app that allows users search for
 
 ## 🛠 Built With <a name="built-with"></a>
 1. Ruby
